@@ -1,1 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
 
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+
+h1, h2{
+    color: white;
+    text-align: center;
+    z-index: 9999;
+}
+
+#bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.container {
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+nav:nth-of-type(2){
+    font-size: 20px;
+}
+
+.title{
+    font-size: 25px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.home{
+    width: 125px;
+    height: 60px;
+    background: linear-gradient(
+        to right,
+        white 90%,
+        black 10%
+    );
+}
+
+.whatever{
+    width: 120px;
+    height: 60px;
+    background: linear-gradient(
+        to left,
+        white 90%,
+        black 10%
+    );
+}
+
+
+.planet1, .planet2, .planet3{
+    height: 500px;
+    width: 400px;
+    margin-top: 240px;
+    background: transparent;
+    outline: 0.5px white solid;
+    border-radius: 2px;
+    float: left;
+    
+}
+
+
+p{
+    color: white;
+}
