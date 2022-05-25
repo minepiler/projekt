@@ -349,8 +349,8 @@ b{
 
 @media screen and (max-width: 580px){
     .float{
-        width: 30vh;
-        height: 25vh;
+        width: 25vh;
+        height: 19vh;
         
     }
     .information, .information2{
