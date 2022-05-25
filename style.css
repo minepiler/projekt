@@ -24,7 +24,7 @@ h1, .whitetxt{
     bottom: 0;
     right: 0;
     z-index: -1;
-    height: 425%;
+    height: 100%;
 }
 
 nav{
@@ -304,11 +304,6 @@ b{
 #the_sun:target, #mercury:target, #venus:target, #earth:target, #mars:target, #jupiter:target, #saturn:target, #uranus:target, #neptune:target{
     color:red 
 }
-
-@media screen and (max-width: 1920px){
-    #bg{
-        height: 100%;
-    }
 
 }
 
