@@ -365,16 +365,16 @@ b{
 
 @media screen and (max-width: 499px){
     .float{
-        width: 18vh;
-        height: 16vh;
+        width: 20px;
+        height: 20px;
     }
 
 }
 
 @media screen and (max-width: 400px){
     .float{
-        width: 18vh;
-        height: 16vh;
+        width: 20px;
+        height: 20px;
     }
     .forgrid{
         display: grid;
