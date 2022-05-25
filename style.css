@@ -305,6 +305,12 @@ b{
     color:red 
 }
 
+@media screen and (max-width: 1920px){
+    #bg{
+        height: 100%;
+    }
+
+}
 
 @media screen and (max-width: 1360px) {
     .forgrid{
