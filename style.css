@@ -24,7 +24,7 @@ h1, .whitetxt{
     bottom: 0;
     right: 0;
     z-index: -1;
-    height: auto;
+    height: 50%;
 }
 
 nav{
