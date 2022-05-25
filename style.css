@@ -23,6 +23,7 @@ h1, .whitetxt{
     left: 0;
     right: 0;
     bottom: 0;
+    height: 1000px;
     z-index: -1;
 }
 
