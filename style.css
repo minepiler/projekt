@@ -368,6 +368,9 @@ b{
         width: 15vh;
         height: 11vh;
     }
+    #bg{
+        margin-top:70px;
+    }
 }
 
 @media screen and (max-width: 400px){
