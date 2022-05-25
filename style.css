@@ -368,6 +368,10 @@ b{
         width: 15vh;
         height: 11vh;
     }
+    
+    .footer{
+        margin-top:1em;
+    }
 
 }
 
