@@ -361,7 +361,7 @@ b{
 
 }
 
-@media screen and (max-width: 499px){
+@media screen and (max-width: 699px){
     .float{
         width: 15vh;
         height: 11vh;
