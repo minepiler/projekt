@@ -22,6 +22,7 @@ h1, .whitetxt{
     top: 0;
     left: 0;
     right: 0;
+    bottom: 1;
     z-index: -1;
     height: 425%;
 }
