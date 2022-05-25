@@ -373,8 +373,8 @@ b{
 
 @media screen and (max-width: 400px){
     .float{
-        width: 20vh;
-        height: 20vh;
+        width: 18vh;
+        height: 16vh;
     }
     .forgrid{
         display: grid;
