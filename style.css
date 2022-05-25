@@ -365,17 +365,13 @@ b{
 
 @media screen and (max-width: 499px){
     .float{
-        width: 16vh;
+        width: 15vh;
         height: 11vh;
     }
 
 }
 
 @media screen and (max-width: 400px){
-    .float{
-        width: 16vh;
-        height: 11vh;
-    }
     .forgrid{
         display: grid;
         grid-gap: 1em;
