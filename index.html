@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div id="bg"></div>
+
+<nav>
+    <div class="home"><p class="fast">Fast Travel</p></div>
+    <div class="title"><abbr title="Space :)">Systematis Solaris</abbr></div>
+    <div class="whatever"></div>
+</nav>
+
+<div class="sidebar">
+    <ul>
+        <li><a href="#the_sun">The sun</a></li>
+        <li><a href="#mercury">Mercury</a></li>
+        <li><a href="#venus">Venus</a></li>
+        <li><a href="#earth">Earth</a></li>
+        <li><a href="#mars">Mars</a></li>
+        <li><a href="#jupiter">Jupiter</a></li>
+        <li><a href="#saturn">Saturn</a></li>
+        <li><a href="#uranus">Uranus</a></li>
+        <li><a href="#neptune">Neptune</a></li>
+    </ul>
+</div>
+
+    
+
+    <div class="slider">
+        <div class="slides">
+
+                <input type="radio" name="move1" id="radio1">
+                <input type="radio" name="move2" id="radio2">
+                <input type="radio" name="move3" id="radio3">
+                <input type="radio" name="move4" id="radio4">
+                <input type="radio" name="move5" id="radio5">
+                <input type="radio" name="move6" id="radio6">
+                <input type="radio" name="move7" id="radio7">
+                <input type="radio" name="move8" id="radio8">
+                <input type="radio" name="move9" id="radio9">
+
+            <div class="slide first">
+                <img src="../PR/photos/sun.jpg" alt="sun">
+            </div>
+
+            <div class="slide second">
+                <img src="../PR/photos/mercury.jpg" alt="mercury">
+            </div>
+
+            <div class="slide third">
+                <img src="../PR/photos/venus.jpg" alt="venus">
+            </div>
+            
+            <div class="slide fourth">
+                <img src="../PR/photos/earth.jpg" alt="earth">
+            </div>
+           
+            <div class="slide fifth">
+                <img src="../PR/photos/mars.jpg" alt="mars">
+            </div>
+
+            <div class="slide sixth">
+                <img src="../PR/photos/jupiter.jpg" alt="jupiter">
+            </div>
+
+            <div class="slide seventh">
+                <img src="../PR/photos/saturn.jpg" alt="saturn">
+            </div>
+
+            <div class="slide eigtht">
+                <img src="../PR/photos/uranus.jpg" alt="uranus">
+            </div>
+
+            <div class="slide ninth">
+                <img src="../PR/photos/neptune.jpg" alt="neptune">
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+                <div class="auto-btn6"></div>
+                <div class="auto-btn7"></div>
+                <div class="auto-btn8"></div>
+                <div class="auto-btn9"></div>
+            </div>
+
+        </div>
+         
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+            <label for="radio6" class="manual-btn"></label>
+            <label for="radio7" class="manual-btn"></label>
+            <label for="radio8" class="manual-btn"></label>
+            <label for="radio9" class="manual-btn"></label>
+        </div>
+
+    </div>
+
+    <script>
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter>10){
+                counter = 1;
+            }
+        }, 7000);
+    </script>
+
+<div class="planetinfo">
+    <div class="overview">
+        <h2 class="ov">Overview</h2>
+    </div>
+    <p class="filler"></p>
+    <div class="forgrid">
+        <div class="information">
+            <h2 id="the_sun">The sun</h2>
+            <p class="text">The sun's mass accounts for approximately 99.86% of the mass in the solar system. Most of it composed of hydrogen and helium. Surprisingly, these gases make up an almost perfect sphere. With only a 10 km difference between the polar and equator diameters. One day. The star is going to enlarge to such a scale, where it absorbs our planet.</p>
+            <img class="float" src="./photos/sun.jpg" alt="sun">
+            <p><b>Radius - </b>696,340 km</p>
+            <p><b>Mass - </b>1.989 × 10^30 kg</p>
+            <p><b>Age - </b>4.603 billion years</p>
+            <p><b>Gravity - </b>274 m/s²</p>
+            <p><b>Length of day - </b>25 days</p>
+            <p><b>Surface temperature - </b>5505 °C</p>
+            <p><b>Distance to earth - </b>150 million km</p>
+        </div>
+        <div class="information2">
+            <h2 id="mercury">Mercury</h2>
+            <p class="text2">Mercury, being the sun's closest sibling in the solar system, is also the smallest, whilst it is still shrinking. It is also known for being quite the meteor attractor. Possessing the most craters in the solar system. In its largest, it could fit the whole of Western Europe. Its temperature can vary on a broad scale. By day 427 °C and at night −173 °C.</p>
+            <img class="float" src="./photos/mercury.jpg" alt="mercury">
+            <p><b>Radius - </b>2,439.7 km</p>
+            <p><b>Mass - </b>3.285 × 10^23 kg</p>
+            <p><b>Age - </b>4.503 billion years</p>
+            <p><b>Gravity - </b>3.7 m/s²</p>
+            <p><b>Length of day - </b>58 days</p>
+            <p><b>Surface temperature - </b>179 °C</p>
+            <p><b>Distance to earth - </b>82.3 million km</p>
+            
+        </div>
+        <div class="information">
+            <h2 id="venus">Venus</h2>
+            <p class="text">Venus is an outcast when it comes to direction. It spins the opposite way from other planets. The atmosphere accommodates to this by spinning faster than the planet. It is also theorized that the atmosphere could possibly contain life. Life in form of microbial terms. The planet's heat is due to its Greenhouse Effect.</p>
+            <img class="float" src="./photos/venus.jpg" alt="venus">
+            <p><b>Radius - </b>6,051.8 km</p>
+            <p><b>Mass - </b>4.867 × 10^24 kg</p>
+            <p><b>Age - </b>4.503 billion years</p>
+            <p><b>Gravity - </b>8.87 m/s²</p>
+            <p><b>Length of day - </b>117 days</p>
+            <p><b>Surface temperature - </b>475 °C</p>
+            <p><b>Distance to earth - </b>173 million km</p>
+        </div>
+        <div class="information2">
+            <h2 id="earth">Earth</h2>
+            <p class="text2">As we know it, the earth is portrayed as a round planet. But far from perfect. Its sphere is a little rigged when it comes to roundness. This is exacerbated even more. Due to the melting glaciers. This also applies to the gravity. The Earth's gravitational field is uneven. So far, the earth is the only known planet to inhabit terrestrial life.</p>
+            <img class="float" src="./photos/earth.jpg" alt="earth">
+            <p><b>Radius - </b>6,371 km</p>
+            <p><b>Mass - </b>5.972 × 10^24 kg</p>
+            <p><b>Age - </b>4.543 billion years</p>
+            <p><b>Gravity - </b>9.81 m/s²</p>
+            <p><b>Length of day - </b>24h</p>
+            <p><b>Surface temperature - </b>13.9 °C</p>
+            <p><b>Distance to earth - </b>0 km</p>
+        </div>
+        <div class="information">
+            <h2 id="mars">Mars</h2>
+            <p class="text">Mars is known as the most identical planet to earth in the solar system. The planet serves somewhat of a chance for potential life. In some areas of the planet. There's ice embedded in the ground. This has led some scientists to believe that there could be life underneath Mars. The temperature on the planet, is a little hot, but doesn't meet the extremes of other planets.</p>
+            <img class="float" src="./photos/mars.jpg" alt="mars1">
+            <p><b>Radius - </b>3,389.5 km</p>
+            <p><b>Mass - </b>6.39 × 10^23 kg</p>
+            <p><b>Age - </b>4.603 billion years</p>
+            <p><b>Gravity - </b>3.72 m/s²</p>
+            <p><b>Length of day - </b>1 day 37 min</p>
+            <p><b>Surface temperature - </b>60 °C</p>
+            <p><b>Distance to earth - </b>226 million km</p>
+        </div>
+        <div class="information2">
+            <h2 id="jupiter">Jupiter</h2>
+            <p class="text2">Talk about getting dizzy. Jupiter is the fastest spinning planet (12.6 km/s). The giant has clouds for its outer layer. They span over 50 km in thickness. The most eye-catching feature, is its "eye". The hurricane has been there since the 17th century. Diameter wise, it is 24,000 km and its hight is 12-14,000 km.</p>
+            <img class="float" src="./photos/jupiter.jpg" alt="jupiter1">
+            <p><b>Radius - </b>69,911 km</p>
+            <p><b>Mass - </b>1.898 × 10^27 kg</p>
+            <p><b>Age - </b>4.603 billion years</p>
+            <p><b>Gravity - </b>24.79 m/s²</p>
+            <p><b>Length of day - </b>10h</p>
+            <p><b>Surface temperature - </b>(-110°C)</p>
+            <p><b>Distance to earth - </b>809 million km</p>
+        </div>
+        <div class="information">
+            <h2 id="saturn">Saturn</h2>
+            <p class="text">The furthest visible planet to the naked eye. The name Saturn comes from the Roman god Saturnus. It is also the flattest planet in the solar system. It is so, due to the polar diameter being 90% of its equatorial diameter. The rings are made out of globs of ice and carbonaceous dust. These rings are only 20 meters thick!</p>
+            <img class="float" src="./photos/saturn.jpg" alt="saturn1">
+            <p><b>Radius - </b>58,232 km</p>
+            <p><b>Mass - </b>5.683 × 10^26 kg</p>
+            <p><b>Age - </b>4.503 billion years</p>
+            <p><b>Gravity - </b>10.44 m/s²</p>
+            <p><b>Length of day - </b>10h 42 min</p>
+            <p><b>Surface temperature - </b>(-140°C)</p>
+            <p><b>Distance to earth - </b>1.45 billion km</p>
+        </div>
+        <div class="information2">
+            <h2 id="uranus">Uranus</h2>
+            <p class="text2">Uranus, the first planet discovered after the invention of the telescope. It will make you shiver in your timbers. In other words, it is the coldest planet in the solar system. Uranus also has a pair of rings. They are made of dark particles. The particles span from micro meters to a fraction of a meter.</p>
+            <img class="float" src="./photos/uranus.jpg" alt="uranus1">
+            <p><b>Radius - </b>25,362 km</p>
+            <p><b>Mass - </b>8.681 × 10^25 kg</p>
+            <p><b>Age - </b>4.503 billion years</p>
+            <p><b>Gravity - </b>8.87 m/s²</p>
+            <p><b>Length of day - </b>17h 14 min</p>
+            <p><b>Surface temperature - </b>(-195°C)</p>
+            <p><b>Distance to earth - </b>3.09 billion km</p>
+        </div>
+        <div class="information">
+            <h2 id="neptune">Neptune</h2>
+            <p class="text2">Neptune possesses the strongest winds in the solar system. These winds go up to 2100 km/h. As other planets, it has rings. For being an ice giant, it is the smallest of this category. The planet's atmosphere is made out of hydrogen, helium and methane. It is also very earth like in gravity.</p>
+            <img class="float" src="./photos/neptune.jpg" alt="neptune1">
+            <p><b>Radius - </b>24,622 km</p>
+            <p><b>Mass - </b>1.024 × 10^26 kg</p>
+            <p><b>Age - </b>4.503 billion years</p>
+            <p><b>Gravity - </b>11.15 m/s²</p>
+            <p><b>Length of day - </b>16h 6 min</p>
+            <p><b>Surface temperature - </b>426 °C</p>
+            <p><b>Distance to earth - </b>4.53 billion km</p>  
+        </div>
+        <div class="information2">
+            <h2 id="pluto">Pluto</h2>
+            <p class="text2">Similarly to Saturn. It received its name from a Roman god. Pluto's mass consists 1/3 of water. The dwarf is smaller than our moon. It is debated whether it is a planet or not. Throughout the years, it has been classified and declassified as a planet. One of its moons (Charon) might have an ocean on it.</p>
+            <img class="float" src="./photos/mercury.jpg" alt="pluto1">
+            <p><b>Radius - </b>1,188.3 km</p>
+            <p><b>Mass - </b>1.309 × 10^22 kg</p>
+            <p><b>Age - </b>4.6 billion years</p>
+            <p><b>Gravity - </b>0.62 m/s²</p>
+            <p><b>Length of day - </b>6.4 days</p>
+            <p><b>Surface temperature - </b>233 °C</p>
+            <p><b>Distance to earth - </b>5.08 billion km</p>  
+        </div>
+    </div>
+</div>
+
+    <script src="particles.min.js"></script>
+    <script src="animation.js"></script>
+
+<div class="flex-wraper">
+        <footer>
+            <div class="info"></div>
+            <div class="bottomtext"><p class="white">The Black Abyss</p></div>
+            <div class="credit"></div>
+        </footer>
+</div>
+
+</body>
+</html>
