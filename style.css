@@ -68,6 +68,76 @@ details{
     
     
 }
+
+slide img{
+    width: 400px;
+    height: 300px;
+}
+
+#radio1:checked ~ .second{
+    margin-left: -100%;
+}
+
+#radio2:checked ~ .third{
+    margin-left: -100%;
+}
+
+#radio3:checked ~ .fourth{
+    margin-left:  -100%;
+}
+
+#radio4:checked ~ .fifth{
+    margin-left: -100%;
+}
+
+#radio5:checked ~ .sixth{
+    margin-left: -100%;
+}
+
+#radio6:checked ~ .seventh{
+    margin-left: -100%;
+}
+
+#radio7:checked ~ .eigtht{
+    margin-left: -100%;
+}
+
+#radio8:checked ~ .ninth{
+    margin-left: -100%;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+b{
+    margin-left: 30px;
+}
+
+#the_sun:target, #mercury:target, #venus:target, #earth:target, #mars:target, #jupiter:target, #saturn:target, #uranus:target, #neptune:target{
+    color:red 
+}
+
 .title{
     font-size: 25px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -142,12 +212,6 @@ details{
     width: 400px;
     transition: 1s;
 }
-
-slide img{
-    width: 400px;
-    height: 300px;
-}
-
 .navigation-manual{
     position: absolute;
     margin-top: 200px;
@@ -158,41 +222,6 @@ slide img{
 .manual-btn:not(:last-child){
     margin-right: 30px;
 }
-
-
-#radio1:checked ~ .second{
-    margin-left: -100%;
-}
-
-#radio2:checked ~ .third{
-    margin-left: -100%;
-}
-
-#radio3:checked ~ .fourth{
-    margin-left:  -100%;
-}
-
-#radio4:checked ~ .fifth{
-    margin-left: -100%;
-}
-
-#radio5:checked ~ .sixth{
-    margin-left: -100%;
-}
-
-#radio6:checked ~ .seventh{
-    margin-left: -100%;
-}
-
-#radio7:checked ~ .eigtht{
-    margin-left: -100%;
-}
-
-#radio8:checked ~ .ninth{
-    margin-left: -100%;
-}
-
-
 .navigation-auto{
     position: absolute;
     display: flex;
@@ -209,21 +238,6 @@ slide img{
     background: transparent;
 }
 
-ul{
-    padding: 0;
-}
-
-li{
-    list-style-type: none;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-
 .sidebar{
     width: 125px;
     height: 610px;
@@ -235,7 +249,6 @@ a{
     );
     box-shadow: 8px 0 5px -4px rgb(0 0 0 / 20%);
 }
-
 .overview{
     height: 35px;
     width: 100%;
@@ -247,15 +260,6 @@ a{
 .planetinfo{
     background-color: transparent ;
 }
-
-h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: underline;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-
 .ov{
     text-decoration: none;
 }
@@ -283,16 +287,6 @@ h2{
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: minmax(200px, auto);
 }
-
-.text, .text2{
-    margin: 0px 30px 0px 30px;
-    width: auto;
-}
-
-b{
-    margin-left: 30px;
-}
-
 .float{
     height: 200px;
     width: 270px;
@@ -301,11 +295,10 @@ b{
     margin-top: 40px;
 }
 
-#the_sun:target, #mercury:target, #venus:target, #earth:target, #mars:target, #jupiter:target, #saturn:target, #uranus:target, #neptune:target{
-    color:red 
+.text, .text2{
+    margin: 0px 30px 0px 30px;
+    width: auto;
 }
-
-
 @media screen and (max-width: 1360px) {
     .forgrid{
         display: grid;
@@ -381,3 +374,4 @@ b{
         grid-auto-rows: minmax(200px, auto);
     }
 }
+
